@@ -245,7 +245,7 @@ body{
 
 /*section form*/
 .form{
-    background: url("/pictures/background.png");
+    background: url("../pictures/background.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
