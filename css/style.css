@@ -130,6 +130,88 @@ body{
     background: var(--greenlight);
 }
 
+
+
+/*section form*/
+
+
+.form{
+    background: url("/pictures/background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    padding: 120px;
+    flex-wrap: wrap;
+
+}
+.section1{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.section1 p{
+
+}
+
+
+.form h1{
+    font-size: 40px;
+    margin:40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form-signup{
+    width: 430px;
+    margin:auto;
+    padding: 20px;
+    /*margin-left: 500px;*/
+    background: #5BCD47;
+    border-radius: 25px;
+}
+.form-signup h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 23px;
+    color:#224D1B;
+}
+.controls{
+    width: 100%;
+    padding: 15px;
+    margin:5px;
+    border-radius: 10px;
+    border: solid 1px #936D5E;
+}
+.controls-checkbox{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 8%;
+    font-size: 10px;
+}
+.form-signup button{
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    border-radius: 12px;
+}
+
+
+
+
+
+
 /*Services*/
 .services{
     width: 100%;
