@@ -87,7 +87,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 97.7%;
     background: rgba(0,0,0,0.5);
 
     display: flex;
@@ -130,11 +130,120 @@ body{
     background: var(--greenlight);
 }
 
+/*Services*/
+.services{
+    width: 100%;
+    margin-top: 120px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.about__title{
+    color: var(--blacklight);
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+.about__paragraph{
+    line-height: 1.7;
+}
+.about__main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.about__icons{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 400px;
+    height: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: var(--greenlight);
+    border-radius: 20px;
+    padding: 50px;
+}
+.about__icon{
+    width: 60px;
+}
+
+/*Music distribution*/
+.our-projects{
+    transition: 0.5s;
+    overflow: hidden;
+    height: 100%;
+    padding: 50px;
+}
+.project-title{
+    padding: 60px;
+    text-align: center;
+}
+.search{
+    position: absolute;
+    padding: 5px;
+    align-items: center;
+    height: 100vh;
+    left: 25%;
+}
+.search input{
+    width: 700px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    text-align: center;
+    color: var(--black);
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--green);
+    width: 50px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: var(--white);
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.project-img{
+    padding-top: 100px;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.about__img{
+    width: 200px;
+    height: 200px;
+
+}
+.about__images{
+    padding: 10px;
+    text-align: center;
+}
+
+.title{
+    font-size: 1rem;
+}
 
 
 /*section form*/
-
-
 .form{
     background: url("/pictures/background.png");
     background-size: 100%;
@@ -205,47 +314,4 @@ body{
     justify-content: center;
     padding:10px;
     border-radius: 12px;
-}
-
-
-
-
-
-
-/*Services*/
-.services{
-    width: 100%;
-    margin-top: 120px;
-    background-color: #FFFFFF;
-    text-align: center;
-}
-.about__title{
-    color: var(--blacklight);
-    font-size: 1rem;
-    margin-bottom: 25px;
-}
-
-.about__paragraph{
-    line-height: 1.7;
-}
-.about__main{
-    padding-top: 80px;
-    display: grid;
-    width: 90%;
-    margin: 0 auto;
-    gap: 1em;
-    overflow: hidden;
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-}
-
-.about__icons{
-    display: grid;
-    gap: 1em;
-    justify-items: center;
-    width: 260px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-.about__icon{
-    width: 40px;
 }
