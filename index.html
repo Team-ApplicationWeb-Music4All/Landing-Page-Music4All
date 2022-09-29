@@ -14,37 +14,59 @@
 </head>
 <body>
     <!--navigation bar-->
-        <header id="header">
-            <nav class="menu">
+    <header>
+        <a href="index.html">
+            <img src="pictures/Music4AllL.png" height="80" alt="MusicAll logo">
+        </a>
+        <button class="menu" aria-label="Open menu">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </button>
 
-                <div class="logo-box">
-                    <h1><a href="#">Music4All</a></h1>
-                    <span class="btn-menu"><i class="fa-solid fa-bars"></i></span>
-                </div>
+        <nav class="nav active">
+            <ul class="navbar">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#features">Find Talent</a>
+                </li>
+                <li>
+                    <a href="#about-the-product">Find Work</a>
+                </li>
+                <li>
+                    <a href="#steps">Why UpWork</a>
+                </li>
+                <li>
+                    <a href="#announcement">Client</a>
+                </li>
+                <li>
+                    <a href="#about-us">About</a>
+                </li>
+                <li>
+                    <a href="#download">Partner</a>
+                </li>
+            </ul>
+        </nav>
 
-                <div class="list-container">
-                    <ul class="lists">
-                        <li><a href="#find-talend" class="active">Find Talent</a></li>
-                        <li><a href="#" >Find Work</a></li>
-                        <li><a href="#" >Why Upwork</a></li>
-                        <li><a href="#" >About</a></li>
-                        <li><a href="#client" >Client</a></li>
-                        <li><a href="#" >Partner</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <!--image-->
-            <div class="img-header">
-                <div class="welcome">
-                    <h1>WELCOME TO MUSIC4ALL</h1>
-                    <hr>
-                    <p>"The songs are just thoughts. For a moment for time. Listening to a song is listening to some thoughts"</p>
-                    <button id="register">REGISTER FOR FREE</button>
-                </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-text">
+                <br> </br>
+                <h1>Welcome to Music4ll</h1>
+                <br> </br>
+                <p>"The songs are just thoughts. For a moment for time. Listening to a song is listening to some thoughts"</p>
+                <br> </br>
+
+                <a class="btn" href="#download">Descargar</a>
+                <br> </br>
             </div>
-        </header>
-
-    <main>
+            <div class="hero-image">
+                <img src="pictures/first-page.png" alt="band playing music in a recording studio">
+            </div>
+        </section>
     <!--About us-->
         <section class="services" id="client">
             <div class="info-container">
@@ -144,110 +166,131 @@
             </div>
         </section>
 
-        <!--Our Members-->
-        <section class="members" id="members">
-            <div class="our_members_title">
-                <h2>Our Members</h2>
-                <div class="member_container">
-                    <div class="member_itm">
-                        <img src="pictures/CASA-SALCEDO-LOGO-2.png">
-                        <p>Casa Salcedo Eventos</p>
+         <!--Our Members-->
+         <section class="members" id="members">
+            <section class="members">
+                <div class="our_members_title">
+                    <h2>Our Members</h2>
+                    <div class="member_container">
+                        <div class="member_itm">
+                            <img src="pictures/CASA-SALCEDO-LOGO-2.png">
+                            <p>Casa Salcedo Eventos</p>
+                        </div>
+                        <div class="member_itm">
+                            <img src="pictures/casapachacamac-logo.png">
+                            <p>Casa Pachacamac</p>
+                        </div>
+                        <div class="member_itm">
+                            <img src="pictures/casarepublica-logo-menu.png">
+                            <p>Casa Republica Barranco</p>
+                        </div>
                     </div>
-                    <div class="member_itm">
-                        <img src="pictures/casapachacamac-logo.png">
-                        <p>Casa Pachacamac</p>
-                    </div>
-                    <div class="member_itm">
-                        <img src="pictures/casarepublica-logo-menu.png">
-                        <p>Casa Republica Barranco</p>
-                    </div>
+                    <hr>
                 </div>
-            </div>
-
-        </section>
-
+    
+            </section>
     </main>
+ <!-- Plan Section -->
+ <section class="plan" id="plan">
+    <div class="contenedor">
+     <div class="tabla">
+         <h2>Basic</h2>
+         <img src="assets/img/8.jpg" alt="">
+         <h3>US$7.99</h3>
+         <p>Start Messaging.</p>
+         <p>Flexible Team Mettings.</p>
+         <p>2TB Cloud Storage.</p>
+         <a href="" class="boton">Get Started</a>
+     </div>
+     <div class="tabla">
+         <h2>Startup</h2>
+         <img src="assets/img/6.jpg" alt="">
+         <h3>US$14.99 </h3>
+         <p>All features in Basic.</p>
+         <p>Flexible Call Scheduling.</p>
+         <p>15TB Cloud Storage.</p>
+         <a href=""class="boton">Get Started</a>
+     </div>
+     <div class="tabla">
+         <h2>Enterprise</h2>
+         <img src="assets/img/7.jpg" alt="">
+         <h3>US$ 25.99</h3>
+         <p>All Features in Startup.</p>
+         <p>Growth Oriented.</p>
+         <p>Unlimited Cloud Storage.</p>
+         <a href=""class="boton">Get Started</a>
+     </div>
 
+    </div>
+  </section>
 <!--    form-->
-    <section class="form">
+<section class="form">
 
-        <div class="section1">
-            <h1>Music4All your life</h1>
+    <div class="section1">
+        <h1>Music4All your life</h1>
 
-            <p>Nunc at dolor purus. Duis massa turpis,
-                laoreet nec ligula in, aliquam gravida leo.
-                Quisque volutpat neque sit amet lacus
-                consequat, vitae ullamcorper est vulputate.
-                Nunc tincidunt faucibus tellus, at pulvinar
-                dolor placerat non. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Vestibulum
-                at lorem ac nulla egestas auctor ac a lacus.</p>
+        <p>Registrate con nosotros y trabaja en un nuevo
+        ambiente laboral donde tu talento puede ser 
+        apreciado por nuevas oportunidades de trabajo ya 
+        sea por personas que organizan eventos o por personas
+        que buscan talentos como el tuyo, pon tus datos y trabaja
+        junto a nosotros.</p>
 
+    </div>
+
+
+    <div class="form-signup">
+        <h2>Music4All</h2>
+
+        <input class="controls" type="text" placeholder="Username">
+        <input class="controls" type="text" placeholder="Year or birth">
+        <input class="controls" type="email" placeholder="Email">
+        <input class="controls" type="text" placeholder="Telephone">
+        <input class="controls-checkbox" type="checkbox" value="" id="invalidCheck" required>I agree to terms and conditions the privacy policy.
+        <button>SEND</button>
+
+    </div>
+
+</section>
+
+ <!--Footer-->
+ <footer>
+    <div class="footer-container">
+        <div class="footer-content-container">
+            <h3 class="website-logo">Music4All</h3>
+            <span class="footer-info">+51 987 123 421</span>
+            <span class="footer-info">Music4All@gmail.com</span>
         </div>
-
-
-        <div class="form-signup">
-            <h2>Music4All</h2>
-
-            <input class="controls" type="text" placeholder="Username">
-            <input class="controls" type="text" placeholder="Year or birth">
-            <input class="controls" type="email" placeholder="Email">
-            <input class="controls" type="text" placeholder="Telephone">
-            <input class="controls-checkbox" type="checkbox" value="" id="invalidCheck" required>I agree to terms and conditions the privacy policy.
-            <button>SEND</button>
-
-        </div>
-
-    </section>
-
-    <!--Footer-->
-    <footer>
-        <div class="footer-container">
+        <div class="footer-menus">
             <div class="footer-content-container">
-                <h3 class="website-logo">Music4All</h3>
-                <span class="footer-info">+51 987 123 421</span>
-                <span class="footer-info">Music4All@gmail.com</span>
+                <span class="menu-title">Menu</span>
+                <a href="#header" class="menu-item-footer">Home</a>
+                <a href="" class="menu-item-footer">Abut Us</a>
+                <a href="#client" class="menu-item-footer">Services</a>
             </div>
-            <div class="footer-menus">
-                <div class="footer-content-container">
-                    <span class="menu-title">Menu</span>
-                    <a href="#header" class="menu-item-footer">Home</a>
-                    <a href="" class="menu-item-footer">Abut Us</a>
-                    <a href="#client" class="menu-item-footer">Services</a>
-                </div>
-                <div class="footer-content-container">
-                    <span class="menu-title">Legal</span>
-                    <a href="" class="menu-item-footer">Privacy Policy</a>
-                    <a href="" class="menu-item-footer">Cookies</a>
-                    <a href="" class="menu-item-footer">Terms & Conditions</a>
-                </div>
-            </div>
-            <div class="form-content">
-                <form id="form">
-                    <label for="">Name:</label>
-                    <input type="text" id="user" name="user" placeholder="Type name">
-                    <label for="">Year or birth:</label>
-                    <input type="date" id="date" name="date" placeholder="Type your birthdate">
-                    <label for="">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Type e-mail">
-                    <label for="">Telephone:</label>
-                    <input type="number" id="number" name="number" placeholder="Type number">
-
-                    <div class="send"><button>Send</button></div>
-
-                    <div class="mesaje-form">
-                        <p>I agree to terms and conditions and the privacy policy.</p>
-                    </div>
-                </form>
-            </div>
-            <div class="footer-text">
-                <p>&copy; Music4All | </p>
+            <div class="footer-content-container">
+                <span class="menu-title">Legal</span>
+                <a href="" class="menu-item-footer">Privacy Policy</a>
+                <a href="" class="menu-item-footer">Cookies</a>
+                <a href="" class="menu-item-footer">Terms & Conditions</a>
             </div>
         </div>
-    </footer>
+        <div class="footer-content-container">
+            <span class="menu-title">follow us</span>
+            <div class="social-container">
+                <a href="" class="social-links"></a>
+                <a href="" class="social-links"></a>
+                <a href="" class="social-links"></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-container">
+        <span class="copyright">&copy,2022, Music4All@gmail.com</span>
+    </div>
+</footer>
 
-    <!--Script-->
-    <script src="https://kit.fontawesome.com/f612fac055.js" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+<!--Script-->
+<script src="https://kit.fontawesome.com/f612fac055.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
 </html>
