@@ -318,13 +318,13 @@ body{
    width: 33%;
    height: 550px;
    margin: auto;
-   border:1px solid #cfc2a0;
+   border:1px solid #f8f6f6;
    border-radius: 4px;
-   box-shadow: 0px 0px 4px 0px #cfc2a0;
+   box-shadow: 0px 0px 4px 0px #000000;
    padding:60px;
    text-align: center;
    flex-grow: 1;
-   color: #cfc2a0;
+   color: #000000;
    font-family:'Outfit', sans-serif;
    flex-direction: column;
 }
@@ -371,7 +371,7 @@ body{
 }
 
 .tabla:hover{
-  background: #702619;  
+  background: #5ACD47;  
   color: #efefef;
   transition: 0.2 all;
   transform: scale(1.1);
