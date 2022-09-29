@@ -14,37 +14,59 @@
 </head>
 <body>
     <!--navigation bar-->
-        <header id="header">
-            <nav class="menu">
+    <header>
+        <a href="index.html">
+            <img src="pictures/Music4AllL.png" height="80" alt="MusicAll logo">
+        </a>
+        <button class="menu" aria-label="Open menu">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </button>
 
-                <div class="logo-box">
-                    <h1><a href="#">Music4All</a></h1>
-                    <span class="btn-menu"><i class="fa-solid fa-bars"></i></span>
-                </div>
+        <nav class="nav active">
+            <ul class="navbar">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#features">Find Talent</a>
+                </li>
+                <li>
+                    <a href="#about-the-product">Find Work</a>
+                </li>
+                <li>
+                    <a href="#steps">Why UpWork</a>
+                </li>
+                <li>
+                    <a href="#announcement">Client</a>
+                </li>
+                <li>
+                    <a href="#about-us">About</a>
+                </li>
+                <li>
+                    <a href="#download">Partner</a>
+                </li>
+            </ul>
+        </nav>
 
-                <div class="list-container">
-                    <ul class="lists">
-                        <li><a href="#find-talend" class="active">Find Talent</a></li>
-                        <li><a href="#" >Find Work</a></li>
-                        <li><a href="#" >Why Upwork</a></li>
-                        <li><a href="#" >About</a></li>
-                        <li><a href="#client" >Client</a></li>
-                        <li><a href="#" >Partner</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <!--image-->
-            <div class="img-header">
-                <div class="welcome">
-                    <h1>WELCOME TO MUSIC4ALL</h1>
-                    <hr>
-                    <p>"The songs are just thoughts. For a moment for time. Listening to a song is listening to some thoughts"</p>
-                    <button id="register">REGISTER FOR FREE</button>
-                </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-text">
+                <br> </br>
+                <h1>Welcome to Music4ll</h1>
+                <br> </br>
+                <p>"The songs are just thoughts. For a moment for time. Listening to a song is listening to some thoughts"</p>
+                <br> </br>
+
+                <a class="btn" href="#download">Descargar</a>
+                <br> </br>
             </div>
-        </header>
-
-    <main>
+            <div class="hero-image">
+                <img src="pictures/first-page.png" alt="band playing music in a recording studio">
+            </div>
+        </section>
     <!--About us-->
         <section class="services" id="client">
             <div class="info-container">
@@ -145,23 +167,10 @@
         </section>
 
         <!--Our Members-->
-        <section class="members" id="members">
+        <section class="members">
             <div class="our_members_title">
                 <h2>Our Members</h2>
-                <div class="member_container">
-                    <div class="member_itm">
-                        <img src="pictures/CASA-SALCEDO-LOGO-2.png">
-                        <p>Casa Salcedo Eventos</p>
-                    </div>
-                    <div class="member_itm">
-                        <img src="pictures/casapachacamac-logo.png">
-                        <p>Casa Pachacamac</p>
-                    </div>
-                    <div class="member_itm">
-                        <img src="pictures/casarepublica-logo-menu.png">
-                        <p>Casa Republica Barranco</p>
-                    </div>
-                </div>
+                <hr>
             </div>
 
         </section>
@@ -200,27 +209,19 @@
 
     </section>
 
+
+
+
+
+
     <!--Footer-->
-    <footer>
-        <div class="footer-container">
-            <div class="footer-content-container">
-                <h3 class="website-logo">Music4All</h3>
-                <span class="footer-info">+51 987 123 421</span>
-                <span class="footer-info">Music4All@gmail.com</span>
-            </div>
-            <div class="footer-menus">
-                <div class="footer-content-container">
-                    <span class="menu-title">Menu</span>
-                    <a href="#header" class="menu-item-footer">Home</a>
-                    <a href="" class="menu-item-footer">Abut Us</a>
-                    <a href="#client" class="menu-item-footer">Services</a>
-                </div>
-                <div class="footer-content-container">
-                    <span class="menu-title">Legal</span>
-                    <a href="" class="menu-item-footer">Privacy Policy</a>
-                    <a href="" class="menu-item-footer">Cookies</a>
-                    <a href="" class="menu-item-footer">Terms & Conditions</a>
-                </div>
+    <footer class="footer">
+        <div class="deg-footer"></div>
+
+        <div class="ejeZfooter">
+            <div class="footer-content">
+                <h2>Form of the Contact</h2>
+                <hr>
             </div>
             <div class="form-content">
                 <form id="form">
