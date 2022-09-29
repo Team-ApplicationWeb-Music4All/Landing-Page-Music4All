@@ -436,6 +436,118 @@ header nav ul li a {
 }
 
 
+/* plan Section */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.plan{
+    background: #f0f1f4;
+    height: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    width: 100%;
+    max-width: 900px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.tabla{
+   width: 33%;
+   height: 550px;
+   margin: auto;
+   border:1px solid #f8f6f6;
+   border-radius: 4px;
+   box-shadow: 0px 0px 4px 0px #000000;
+   padding:60px;
+   text-align: center;
+   flex-grow: 1;
+   color: #000000;
+   font-family:'Outfit', sans-serif;
+   flex-direction: column;
+}
+
+.tabla h2{
+    font-size:30px;
+    margin-bottom: 35px;
+}
+
+.tabla img{
+    width:144px;
+    margin-bottom: 35px;
+}
+
+.tabla h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.tabla p{
+    display:block;
+    margin-bottom: 20px;
+}
+
+.boton{
+    display:inline-block;
+    padding: 12px;
+    background:#525252;
+    text-decoration: none;
+    color:#b6b6b6;
+    border-radius: 100px;
+    text-align: center;
+    font-size:14px;
+    font-weight: 600;
+    margin:auto;
+}
+
+.boton:hover{
+    background: #efefef;  
+    color: #0a1a2a;
+    transition: 0.2 all;
+    transform: scale(1.1);
+    cursor:pointer;
+}
+
+.tabla:hover{
+  background: #5ACD47;  
+  color: #efefef;
+  transition: 0.2 all;
+  transform: scale(1.1);
+  cursor:pointer;
+}
+
+@media screen and (max-width:1000px){
+    .tabla{
+        width: 45%;
+        flex-grow: initial;
+        max-width: none;
+        margin-bottom: 40px;
+     }
+     
+}
+
+@media screen and (max-width:700px){
+    .tabla{
+        width: 55%;
+        height: 20%;
+        padding: 30px;
+     }
+     .tabla h2{
+        margin-top: 40px;
+     }
+}
+
+
 /*section form*/
 .form{
     background: url("../pictures/background.png");
